@@ -1,4 +1,7 @@
 # Java-CSV-API
-CSV - Comma Separated Values ( reading *.csv files in Java api)
+CSV sample program is implemented inside the `CSV_Read_Sample` folder
 
-![image](https://user-images.githubusercontent.com/24220136/233828946-27714d32-3561-4df6-aaec-2cf28d343af8.png)
+# Vector-Search
+
+Vector Search program is implemented in the following folder: `Vector_Search_Sample` 
+
