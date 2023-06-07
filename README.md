@@ -1,5 +1,6 @@
 # Java-CSV-API
-CSV sample program is implemented inside the `CSV_Read_Sample` folder
+- CSV sample program is implemented inside the `CSV_Read_Sample` folder
+- The Java program that reads a *.csv file and displays its contents in a tabular format.
 
 # Vector-Search
 
