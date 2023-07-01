@@ -1,6 +1,6 @@
 ## Vector Search Sample
 
-- Java code allows the user to search for a keyword within a CSV file.
+- Java code allows the user to search for a keyword within a CSV file. It utilizes Java's standard I/O classes, exception handling, and user input functionality to achieve this task.
 
 - Test Data is NationalUniversitiesRankings.csv
 
@@ -50,6 +50,4 @@
 
   - If an exception occurs during file reading, searching, or printing, it is caught in the catch block, and the exception stack trace is printed to the console using `e.printStackTrace()`.
 
-Finally, the finally block ensures that the BufferedReader object is properly closed using the close() method. If an exception occurs while closing the reader, a RuntimeException is thrown with the original exception as its cause.
-
-Overall, this code allows the user to search for a specific keyword within a CSV file. It utilizes Java's standard I/O classes, exception handling, and user input functionality to achieve this task.
+  - Finally, the finally block ensures that the BufferedReader object is properly closed using the close() method. If an exception occurs while closing the reader, a `RuntimeException` is thrown with the original exception as its cause.
