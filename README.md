@@ -6,13 +6,17 @@
 
 - Java program reads a `*.csv` file and prints its contents to the console. It utilizes Java's standard I/O classes to perform file operations and exception handling to handle potential errors.
 
-- Sample data: testData.csv
+- Sample data: `testData.csv`
 
-![image](https://user-images.githubusercontent.com/24220136/233832939-28349291-b299-4a38-9793-1ad6493b7222.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/233832939-28349291-b299-4a38-9793-1ad6493b7222.png" alt="Image">
+</p>
 
 - Java api reads the file then outputs the data 
 
-![image](https://user-images.githubusercontent.com/24220136/233832923-b73f1e16-b667-4054-b638-a8bf38ec69bb.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/233832923-b73f1e16-b667-4054-b638-a8bf38ec69bb.png" alt="Image">
+</p>
 
 - `CSV_Read_Sample.java` explanation:
 
@@ -46,17 +50,21 @@
 - The Java program that allows the user to search for a keyword in a `*.csv file`. The program prompts the user to enter a keyword, reads the input, and then opens a CSV file specified by the file path. It reads the file line by line and checks if each line contains the keyword. If a match is found, it prints the row index and the entire line. Finally, it closes the file and handles any exceptions that may occur during the file reading process.
 - Overall, this code demonstrates a simple file handling operation in Java, where a *.csv file is read, and a keyword search is performed on its contents.
 
-## Vector Search Sample
+## [Vector Search Sample](https://en.wikipedia.org/wiki/Vector_space_model)
 
 - Java code allows the user to search for a keyword within a CSV file. It utilizes Java's standard I/O classes, exception handling, and user input functionality to achieve this task.
 
 - Test Data is NationalUniversitiesRankings.csv
 
-![image](https://user-images.githubusercontent.com/24220136/233833032-cb18b396-4553-4fe1-992f-4351bffe4dc8.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/233833032-cb18b396-4553-4fe1-992f-4351bffe4dc8.png" alt="Image">
+</p>
 
 - Java API reads the file then searchs for the particular keyword
 
-![image](https://user-images.githubusercontent.com/24220136/233833045-80be041f-7e10-4871-a8a3-3b0f2d90d8ef.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/233833045-80be041f-7e10-4871-a8a3-3b0f2d90d8ef.png" alt="Image">
+</p>
 
 - `Vector Search` is implemented in the below lines (This loop is performing the vector search by comparing each element in the row to the keyword entered by the user. If a match is found, it prints the entire row where the keyword was found.):
 
