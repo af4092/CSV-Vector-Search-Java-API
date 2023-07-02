@@ -44,13 +44,13 @@
 
 -------------------------------------
 
-# Vector-Search
+# [Vector-Search](https://en.wikipedia.org/wiki/Vector_space_model)
 
 - Vector Search program is implemented in the following folder: `Vector_Search_Sample` 
 - The Java program that allows the user to search for a keyword in a `*.csv file`. The program prompts the user to enter a keyword, reads the input, and then opens a CSV file specified by the file path. It reads the file line by line and checks if each line contains the keyword. If a match is found, it prints the row index and the entire line. Finally, it closes the file and handles any exceptions that may occur during the file reading process.
 - Overall, this code demonstrates a simple file handling operation in Java, where a *.csv file is read, and a keyword search is performed on its contents.
 
-## [Vector Search Sample](https://en.wikipedia.org/wiki/Vector_space_model)
+## Vector Search Sample
 
 - Java code allows the user to search for a keyword within a CSV file. It utilizes Java's standard I/O classes, exception handling, and user input functionality to achieve this task.
 
@@ -68,7 +68,9 @@
 
 - `Vector Search` is implemented in the below lines (This loop is performing the vector search by comparing each element in the row to the keyword entered by the user. If a match is found, it prints the entire row where the keyword was found.):
 
-![image](https://user-images.githubusercontent.com/24220136/233833117-86ba265a-cc00-4202-9967-cf9212e1635d.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/233833117-86ba265a-cc00-4202-9967-cf9212e1635d.png" alt="Image">
+</p>
 
 - `Vector_Search_Sample.java` code explanation:
 
